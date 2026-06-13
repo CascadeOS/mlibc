@@ -83,7 +83,7 @@ if not headers_only
 		'libcascade',
 		default_options: ['install=false'],
 		fallback: ['libcascade', 'libcascade_dep'],
-		version : '=0.0.2',
+		version : '=0.0.3',
 	)
 	libc_deps += libcascade_dep
 	rtld_deps += libcascade_dep
